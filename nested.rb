@@ -1,125 +1,83 @@
+def new_hash
 
-def hopper
-	programmer_hash = 
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
+   Hash.new
+end	end
+
+
+ def actor	def actor
+
+   actor = {name: "Dwayne The Rock Johnson"}
+end	end
+
+
+ def monopoly	def monopoly
+	monopoly = {}		monopoly = {
+    :railroads => {}
+  }
+
+
+ end	end
+
+
+ def monopoly_with_second_tier	def monopoly_with_second_tier
+	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!	  monopoly = {
+
+     :railroads => {
+      :pieces => 4,
+      :names => {},
+      :rent_in_dollars => {}
+    }
+  }
+end	end
+
+
+ def monopoly_with_third_tier	def monopoly_with_third_tier
+	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!	  monopoly = {
+
+     :railroads => {
+      :pieces => 4,
+      :names => {
+        :reading_railroad => {},
+        :pennsylvania_railroad => {},
+        :b_and_o_railroad => {},
+        :shortline => {}
+      },
+      :rent_in_dollars => {
+        :one_piece_owned => 25,
+        :two_pieces_owned => 50,
+        :three_pieces_owned => 100,
+        :four_pieces_owned => 200
+      }
+    }
+  }
+end	end
+
+
+ def monopoly_with_fourth_tier	def monopoly_with_fourth_tier
+	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!	  monopoly = {
+
+     :railroads => {
+      :pieces => 4,
+      :names => {
+        :reading_railroad => {
+          "mortgage_value" => "$100"
         },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
+        :pennsylvania_railroad => {
+          "mortgage_value" => "$200"
         },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
+        :b_and_o_railroad => {
+          "mortgage_value" => "$400"
+          },
+        :shortline => {
+          "mortgage_value" => "$800"
         }
-     }
-
-
-end
-
-def alan_kay_is_known_for
-	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-	
-	programmer_hash = 
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
-        }
-     }
-end
-
-def dennis_ritchies_language
-	programmer_hash = 
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
-        }
-     }
-end
-
-def adding_matz
-# add the following information to the top level of programmer_hash
-# :yukihiro_matsumoto => {
-#   :known_for => "Ruby",
-#    :languages => ["LISP", "C"]
-# }
-
-	programmer_hash = 
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
-        }
-     }
-
-    
-end
-
-def changing_alan
-	programmer_hash = 
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
-        }
-     }
-     #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
-     alans_new_info = "GUI"
-     
-     
-end
-
-def adding_to_dennis
-	programmer_hash = 
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
-        }
-     }
-
-end
+      },
+      :rent_in_dollars => {
+        :one_piece_owned => 25,
+        :two_pieces_owned => 50,
+        :three_pieces_owned => 100,
+        :four_pieces_owned => 200
+      }
+    }
+  }
+end	end
